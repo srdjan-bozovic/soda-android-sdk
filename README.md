@@ -40,6 +40,12 @@ The Android SDK uses the Android Build system based in Gradle.
 
     ./gradlew installDebug
 
+### Build for Nokia-X software platform
+
+This project could be opened with Android Studio 0.5.2
+
+For mor info on how to configure Android Studio to develop for Nokia-X please read this article:
+http://nokia.ly/1dz0qHs
 
 ## SODA
 

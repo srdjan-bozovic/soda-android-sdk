@@ -9,5 +9,5 @@
  * http://47deg.com
  * hello@47deg.com
  */
-
+include ':reference_v2_lib:app'
 include ':soda-android-sdk', 'soda-android-example'
