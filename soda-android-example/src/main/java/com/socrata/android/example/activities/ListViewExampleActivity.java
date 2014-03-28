@@ -49,7 +49,7 @@ public class ListViewExampleActivity extends SodaListActivity<EarthquakeView, Ea
     @Override
     public Query getQuery() {
         Query query = new Query("earthquakes", Earthquake.class);
-        query.addWhere(gt("magnitude", "2.0"));
+        query.addWhere(gt("magnitude", "1.0"));
         query.addOrder(order("magnitude", OrderDirection.DESC));
         return query;
     }
